@@ -1,0 +1,14 @@
+{
+  "manifest_version" : 2,
+  "version" : "1",
+  "name": "Gmail fix labels",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "css": ["style.css"]
+    }
+  ],
+  "permissions": [
+    "tabs", "https://mail.google.com/*"
+  ]
+}
