@@ -1,14 +1,11 @@
 {
   "manifest_version" : 2,
   "version" : "1",
-  "name": "Gmail fix labels",
+  "name": "Gmail Starr Fix",
   "content_scripts": [
     {
       "matches": ["https://mail.google.com/*"],
       "css": ["style.css"]
     }
-  ],
-  "permissions": [
-    "tabs", "https://mail.google.com/*"
   ]
 }
